@@ -10,7 +10,7 @@ class PruebaModelo{
     }
     
     public function getDatos(){
-        $consulta=$this->db->query("select * from prueba");
+        $consulta=$this->db->query("select * from users");
         
         while($filas=$consulta->fetch(PDO::FETCH_ASSOC)){
             $this->Datos[]=$filas;

@@ -1,6 +1,6 @@
 create database prueba;
 use prueba;
-CREATE TABLE prueba (
+CREATE TABLE users(
     id int,
     first_name varchar(255),
     last_name varchar(255),
